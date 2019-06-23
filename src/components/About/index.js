@@ -1,8 +1,9 @@
 import React from "react";
+import Col from "react-bootstrap/Col";
 
 function About() {
     return (
-        <>
+        <Col className="col-10">
             <div className='row header-row'>
             </div>
             <div className="aboutP">
@@ -26,7 +27,7 @@ function About() {
                     <i className="devicon-github-plain"></i>
                 </h1>
             </div>
-        </>
+        </Col>
     )
 }
 

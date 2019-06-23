@@ -1,0 +1,37 @@
+[
+    {
+        "key": 1,
+        "name": "Nibble Neighbor",
+        "img": "../public/assets/images/nibbleNeighbor.png",
+        "gitHub": "https://github.com/BogacSabuncu/NibbleNeighbor",
+        "deploy": "https://whispering-woodland-32754.herokuapp.com/"
+    },
+    {
+        "key": 2,
+        "name": "Friend Finder",
+        "img": "./public/assets/images/friendFinder.png",
+        "gitHub": "https://github.com/crnyberg91/friend-finder",
+        "deploy": "https://whispering-woodland-32754.herokuapp.com/"
+    },
+    {
+        "key": 3,
+        "name": "Watchpad",
+        "img": "./public/assets/images/watchPad.png",
+        "gitHub": "#",
+        "deploy": "#"
+    },
+    {
+        "key": 4,
+        "name": "LiriNode",
+        "img": "./public/assets/images/liriNode.png",
+        "gitHub": "https://github.com/crnyberg91/liri-node-app",
+        "deploy": "#"
+    },
+    {
+        "key": 5,
+        "name": "Trivia Game",
+        "img": "./public/assets/images/liriNode.png",
+        "gitHub": "https://github.com/crnyberg91/TriviaGame/tree/gh-pages",
+        "deploy": "https://crnyberg91.github.io/TriviaGame/"
+    }
+]

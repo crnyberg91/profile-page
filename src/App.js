@@ -7,14 +7,15 @@ import "normalize.css";
 import Footer from "./components/Footer";
 import NavbarPage from './components/NavBarPage';
 import JumbotronPage from './components/jumbotron';
+import CardContainer from './components/CardContainer';
 
 function App() {
   return (
     <>
       <NavbarPage />
       <JumbotronPage />
-      <MainContentContainer />
-      <Footer/>
+      <CardContainer />
+      <Footer />
     </>
   )
 }

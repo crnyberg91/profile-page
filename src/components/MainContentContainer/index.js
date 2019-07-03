@@ -5,31 +5,30 @@ import Container from "react-bootstrap/Container";
 // import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import portfolio from "../../portfolio.json";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import JumbotronPage from "../jumbotron";
 
-class MainContentContainer extends React.Component {
-    state = {
-        portfolio
-    }
-    render() {
-        return (
-            <Container>
-                <Row>
-                    <About />
-                </Row>
-                <Row>
-                    {this.state.portfolio.map(project => (
-                        <PortfolioCard
-                            key={project.key}
-                            name={project.name}
-                            img={project.img}
-                            deploy={project.deploy}
-                            gitHub={project.gitHub}
-                        />
-                    ))}
-                </Row>
-            </Container>
-        )
-    }
+const gridExamplesPage = () => {
+  return (
+    <MDBContainer>
+        <JumbotronPage />
+      <MDBRow>
+        <MDBCol md="4"></MDBCol>
+        <MDBCol md="4">Profile Page</MDBCol>
+        <MDBCol md="4"></MDBCol>
+      </MDBRow>
+      <MDBRow>
+          {/* about paragraph or jumbotron */}
+      </MDBRow>
+      <MDBRow>
+          {/* about paragraph or jumbotron */}
+      </MDBRow>
+      <MDBRow>
+          {/* portfolio */}
+      </MDBRow>
+    </MDBContainer>
+    // footer
+  );
 }
 
-export default MainContentContainer;
+export default gridExamplesPage;

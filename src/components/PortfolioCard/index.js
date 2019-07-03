@@ -23,7 +23,7 @@ function PortfolioCard(props) {
   </ListGroup> */}
   <Card.Body>
     <Card.Link href={props.deploy}>Deploy</Card.Link>
-    <Card.Link href={props.gitHub}>GitHub</Card.Link>
+    <Card.Link href={props.gitHub}>Git Hub</Card.Link>
   </Card.Body>
 </Card>
     )

@@ -6,7 +6,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import portfolio from "../../portfolio.json";
 
-
 class MainContentContainer extends React.Component {
     state = {
         portfolio

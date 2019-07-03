@@ -11,11 +11,7 @@ import JumbotronPage from "../jumbotron";
 const gridExamplesPage = () => {
   return (
     <MDBContainer>
-        <JumbotronPage />
       <MDBRow>
-        <MDBCol md="4"></MDBCol>
-        <MDBCol md="4">Profile Page</MDBCol>
-        <MDBCol md="4"></MDBCol>
       </MDBRow>
       <MDBRow>
           {/* about paragraph or jumbotron */}

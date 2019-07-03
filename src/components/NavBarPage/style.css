@@ -1,0 +1,17 @@
+.navBar {
+    /* position: fixed; */
+    opacity: .5;
+}
+
+.navLink {
+    /* border-radius: 100%; */
+    margin: 1rem;
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: 'Nova Flat', cursive;
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Nova Flat', cursive;
+}

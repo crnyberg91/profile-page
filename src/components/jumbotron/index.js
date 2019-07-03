@@ -1,54 +1,19 @@
 import React from "react";
-import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBCardTitle, MDBCardImage, MDBCardBody, MDBCardText } from "mdbreact";
+import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from "mdbreact";
+import './style.css';
 
 const JumbotronPage = () => {
   return (
-    <MDBContainer className="mt-5 text-center">
+    <MDBContainer fluid className="jumbotron">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className="text-center">
-            <MDBCardTitle className="card-title h4 pb-2">
-              <strong>Chris Nyberg's Portfolio</strong>
-            </MDBCardTitle>
-
-            <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-              className="img-fluid"
-            />
-            <MDBCardBody>
-              <MDBCardTitle className="indigo-text h5 m-4">
-                Full Stack Web Developer
-              </MDBCardTitle>
-              <MDBCardText>
-                Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
-              </MDBCardText>
-
-              <MDBCol className="d-flex justify-content-center mt-4" md="12">
-                <MDBCol md="3" className="d-flex justify-content-around">
-                  <a href="#"><MDBIcon
-                    fab
-                    icon="linkedin-in"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                  <a href="#"><MDBIcon
-                    fab
-                    icon="twitter"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                  <a href="#"><MDBIcon
-                    fab
-                    icon="facebook-f"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                </MDBCol>
-              </MDBCol>
-
-            </MDBCardBody>
-          </MDBJumbotron>
+          <MDBCol className="text-black text-center fluid" id="box">
+            <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Chris Nyberg's Portfolio Page</MDBCardTitle>
+            <p className="mx-5 mb-5">I am a fullstack web developer located in Atlanta Georgia.</p>
+            <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Resume</MDBBtn>
+            <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Projects</MDBBtn>
+            {/* <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Contacts</MDBBtn> */}
+          </MDBCol>
         </MDBCol>
       </MDBRow>
     </MDBContainer>
@@ -56,3 +21,5 @@ const JumbotronPage = () => {
 }
 
 export default JumbotronPage;
+{/* <h1>Chris Nyberg</h1>
+<i>Full Stack Web Developer</i> */}

@@ -2,3 +2,11 @@
     padding-right: 0rem;
     padding-left: 0rem;
 }
+
+.card-btn {
+    color: #000000;
+    min-width: 7rem;
+    max-width: 7rem;
+    /* min-height: 6rem; */
+    /* max-height: 6rem; */
+}

@@ -25,10 +25,9 @@ const CardContainer = () => {
                     <MDBCard style={{ width: "18rem" }}>
                         <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                         <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
+                            <MDBCardTitle>NibbleNeighbor</MDBCardTitle>
                             <MDBCardText>
-                                Some quick example text to build on the card title and make
-                                up the bulk of the card&apos;s content.
+                                A recipe search app where a user can create an account and save recipes found.
           </MDBCardText>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
@@ -39,10 +38,9 @@ const CardContainer = () => {
                     <MDBCard style={{ width: "18rem" }}>
                         <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                         <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
+                            <MDBCardTitle>clicky game</MDBCardTitle>
                             <MDBCardText>
-                                Some quick example text to build on the card title and make
-                                up the bulk of the card&apos;s content.
+                                A memory game built in react.
           </MDBCardText>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
@@ -53,10 +51,9 @@ const CardContainer = () => {
                     <MDBCard style={{ width: "18rem" }}>
                         <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                         <MDBCardBody>
-                            <MDBCardTitle>Card title</MDBCardTitle>
+                            <MDBCardTitle>store-front</MDBCardTitle>
                             <MDBCardText>
-                                Some quick example text to build on the card title and make
-                                up the bulk of the card&apos;s content.
+                                A fake store's website where the user can make pretend purchases.
           </MDBCardText>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
                             <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
@@ -65,7 +62,6 @@ const CardContainer = () => {
                 </MDBCol>
             </CardDeck>
         </Container>
-
     )
 }
 

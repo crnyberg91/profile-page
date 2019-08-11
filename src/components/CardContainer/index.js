@@ -6,7 +6,7 @@ import "./style.css";
 
 const CardContainer = () => {
     return (
-        <Container>
+        <Container className="cardRow">
             <CardDeck>
                 <MDBCol className="cardCol">
                     <MDBCard style={{ width: "18rem" }}>
@@ -16,8 +16,8 @@ const CardContainer = () => {
                             <MDBCardText>
                                 A social app where one fills out a questionare then be matched with the closest matched person.
           </MDBCardText>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn link-btn">Link</MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn git-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -29,8 +29,8 @@ const CardContainer = () => {
                             <MDBCardText>
                                 A recipe search app where a user can create an account and save recipes found.
           </MDBCardText>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn link-btn">Link</MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn git-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -42,21 +42,8 @@ const CardContainer = () => {
                             <MDBCardText>
                                 A memory game built in react.
           </MDBCardText>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
-                        </MDBCardBody>
-                    </MDBCard>
-                </MDBCol>
-                <MDBCol className="cardCol">
-                    <MDBCard style={{ width: "18rem" }}>
-                        <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-                        <MDBCardBody>
-                            <MDBCardTitle>store-front</MDBCardTitle>
-                            <MDBCardText>
-                                A fake store's website where the user can make pretend purchases.
-          </MDBCardText>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn">Link</MDBBtn>
-                            <MDBBtn href="#" className="dusty-grass-gradient card-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn link-btn">Link</MDBBtn>
+                            <MDBBtn href="#" className="dusty-grass-gradient card-btn git-btn"><MDBIcon fab icon="github"></MDBIcon></MDBBtn>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>

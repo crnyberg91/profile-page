@@ -6,7 +6,7 @@ function Footer() {
     return (
         <Navbar expand="lg" variant="light" bg="light" sticky="bottom" className="dusty-grass-gradient footer">
             <Container>
-                <Navbar.Brand href="#">Footer</Navbar.Brand>
+                <Navbar.Brand href="#"></Navbar.Brand>
             </Container>
         </Navbar>
     )

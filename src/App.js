@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import NavbarPage from './components/NavBarPage';
 import JumbotronPage from './components/jumbotron';
 import CardContainer from './components/CardContainer';
+import About from './components/About';
 
 function App() {
   return (

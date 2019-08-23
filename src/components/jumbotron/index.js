@@ -9,9 +9,9 @@ const JumbotronPage = () => {
         <MDBCol>
           <MDBCol className="text-black text-center fluid" id="box">
             <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold">Chris Nyberg's Portfolio Page</MDBCardTitle>
-            <p className="mx-5 mb-5">I am a fullstack web developer located in Atlanta Georgia.</p>
-            <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Resume</MDBBtn>
-            <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Projects</MDBBtn>
+            <p className="mx-5 mb-5">I am a full-stack web developer located in Atlanta Georgia.</p>
+            <MDBBtn target='_blank' href="assets/c-nyberg-resume.pdf" className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Resume</MDBBtn>
+            {/* <a onClick="#cardRow"><MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Projects</MDBBtn></a> */}
             {/* <MDBBtn className="mb-5 dusty-grass-gradient"><MDBIcon icon="clone" className="mr-2"></MDBIcon> Contacts</MDBBtn> */}
           </MDBCol>
         </MDBCol>
